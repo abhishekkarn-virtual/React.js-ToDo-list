@@ -30,7 +30,7 @@ function Input(props) {
 
     return (
             <form class="item">
-                <input type="text" onChange={handleChange} name="item" placeholder="New Item" value={item.item} autocomplete="off" />
+                <input type="text" onChange={handleChange} name="item" placeholder="✍ New Item" value={item.item} autocomplete="off" />
                 <button onClick={submitItem}>+</button>
             </form>
     )
